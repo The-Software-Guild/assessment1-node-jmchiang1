@@ -16,7 +16,7 @@ Section One: JS
     return 1 + Math.random() * 4;
   }
   
-[] Part B: reverse-a-string
+[x] Part B: reverse-a-string
    Given any string, write a function that returns the string in reverse.
    ex) 
    const initialString = 'hello' returns: 'olleh'
