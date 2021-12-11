@@ -7,7 +7,7 @@ December 14th @ 10:00am est. Handed in via github classroom: https://classroom.g
 Once completed schedule a code review via the following link: https://calendly.com/patrick-morgan-bkny/c165-assessment-1
 
 Section One: JS
-[] Part A: 5-random-7
+[x] Part A: 5-random-7
   If you have a function that generates random number between 1 to 5 
   how could u generate a random number from 1 to 7 inclusively by using 
   the afformentioned function?
