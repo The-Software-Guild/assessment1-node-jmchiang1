@@ -6,7 +6,7 @@ You must complete all 3 sections by the beginning of class Tuesday
 December 14th @ 10:00am est. Handed in via github classroom: https://classroom.github.com/a/zRAboD7C
 Once completed schedule a code review via the following link: https://calendly.com/patrick-morgan-bkny/c165-assessment-1
 
-Section One: JS
+Section One: JS - Total time: 20 minutes
 [x] Part A: 5-random-7
   If you have a function that generates random number between 1 to 5 
   how could u generate a random number from 1 to 7 inclusively by using 
@@ -20,14 +20,17 @@ Section One: JS
    Given any string, write a function that returns the string in reverse.
    ex) 
    const initialString = 'hello' returns: 'olleh'
+
+--------------------------------------------------------------------------------  
   
-  
-Section Two: DOM, HTML, CSS
-[] Part A: event-werkbook
+Section Two: DOM, HTML, CSS - Total time: 2.5 hours
+[x] Part A: event-werkbook
    Clone the following repository and complete all the exercises using vanilla 
    JS only: https://github.com/The-Software-Guild/event-werkbook-dom
-  
-Section Three: Node.js, Express.js, React.js
+
+--------------------------------------------------------------------------------    
+
+Section Three: Node.js, Express.js, React.js - Total time: xx hours
 [] Part A: thunbergs-recycling-corp
    You have just started working at an early-stage high-growth startup that has been tasked with a global recycling initiative. 
    Your job as a junior developer is to create an application wherein you can track your local team's efforts.
@@ -69,9 +72,9 @@ Section Three: Node.js, Express.js, React.js
   
   Lastly, take a screenshot demonstrating the complete routing functionality of this server application via Postman
   
-  Part B: react-refactor
-  Refactor the event werkbook from Section 2 Part A into a multi-page react application in which a single exercie is displayed per each page.
-  The application must be fully styled and responsive (using a combination of css-grid, css flexbox, and media queries .... NOT bootstrap)
+  [] Part B: react-refactor
+     Refactor the event werkbook from Section 2 Part A into a multi-page react application in which a single exercie is displayed per each page.
+     The application must be fully styled and responsive (using a combination of css-grid, css flexbox, and media queries .... NOT bootstrap)
   
   PLEASE KEEP TRACK OF, AND ESTIMATE HOW LONG THE ASSESSMENT TOOK YOU TO COMPLETE THIS TIME. 
   THIS IS PURELY FOR ME AND TO BETTER PACE THE FUTURE ASSIGNMENTS AND OVERALL COURSE PACING
