@@ -31,7 +31,7 @@ Section Two: DOM, HTML, CSS - Total time: 2.5 hours
 --------------------------------------------------------------------------------    
 
 Section Three: Node.js, Express.js, React.js - Total time: xx hours
-[x] Part A: thunbergs-recycling-corp
+[x] Part A: thunbergs-recycling-corp - 2 hours
    You have just started working at an early-stage high-growth startup that has been tasked with a global recycling initiative. 
    Your job as a junior developer is to create an application wherein you can track your local team's efforts.
   
@@ -71,6 +71,7 @@ Section Three: Node.js, Express.js, React.js - Total time: xx hours
   You'll need to pass the uuid you added when POSTing new items as a URL Parameter to the endpoint in order to have a reference to the object you want to update or delete.
   
   Lastly, take a screenshot demonstrating the complete routing functionality of this server application via Postman
+  - https://youtu.be/8Is7WeGqKS0
   
 [] Part B: react-refactor
      Refactor the event werkbook from Section 2 Part A into a multi-page react application in which a single exercie is displayed per each page.
