@@ -1,0 +1,18 @@
+.submit {
+    margin: 3rem;
+}
+
+li
+{
+    list-style-type: none;
+}
+
+.list {
+    display: grid;
+    text-align: start;
+    width: fit-content;
+}
+
+.list-div {
+    text-align: -webkit-center;
+}

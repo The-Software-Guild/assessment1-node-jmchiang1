@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Click.css";
+import "./CSS/Click.css"
 
 function Click() {
   const [show, setShow] = useState(true);

@@ -14,19 +14,16 @@ var recycledItems = [
   { Name: "Plastic Bag", Description: "Wegman's plastic bag", Recyclable: false, Quantity:754, PPU: 3, id: uuidv4() },
 ];
 
-//display entire object - works!
 app.get("/recycle",(req, res, next) => {
   res.status(200).send(recycledItems);
 });
 
-//find single object by id - works!
 app.get("/recycle/:id", (req, res, next) => {
     let { id } = req.params;
     const findItem = recycledItems.filter((item) => item.id === id);   
     res.status(200).send(findItem);
 })
 
-//create new item and return the updated array with new item - works!
 app.post("/recycle", (req, res) => {
   var newItem = req.body;  
   console.log("REQ.BODY",newItem);
@@ -35,7 +32,6 @@ app.post("/recycle", (req, res) => {
   .redirect("/recycle");
 });
 
-//update name and description on single item - works!
 app.put("/recycle/:id", (req, res, next) => {
     let { id } = req.params;
     const { Name, Description } = req.body;
@@ -50,22 +46,19 @@ app.put("/recycle/:id", (req, res, next) => {
     res.status(200).redirect("/recycle")
 })
 
-// delete single task by id - works!
 app.delete("/recycle/:id", (req, res, next) => {
     let { id } = req.params;
     recycledItems = recycledItems.filter((item) => item.id !== id);
     res.status(200).send(recycledItems);
 })
 
-//if error occurs, create error object
 app.use((req, res, next) => {
     const err = new Error("Task not found");
     err.status = 404;
     next(err);
 })
 
-//global error handling function 
-app.use((err, req, res, next) => {  //if error occurs, display this object with status and message
+app.use((err, req, res, next) => {
     res.status(err.status || 500)
     res.send({
         error: {
