@@ -7,7 +7,7 @@ const random5 = () => {
 
 
 // Part B: reverse-a-string
-// Solution 1: use built-in methods to reverse then join characters
+// Solution 1: use built-in methods to split, reverse then join back characters
 let string = "hello"
 
 const reverseString = (string) => {
@@ -35,4 +35,4 @@ var reverse = function(s) {
     return s.join("");
 };
 // Time: O(N)
-// Space: O(N) - would be O(1) if the initial input was a string instead of an array
+// Space: O(N) - would be O(1) if the initial input was an array instead of a string
