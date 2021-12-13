@@ -73,7 +73,7 @@ Section Three: Node.js, Express.js, React.js - Total time: xx hours
   Lastly, take a screenshot demonstrating the complete routing functionality of this server application via Postman
   - https://youtu.be/8Is7WeGqKS0
   
-[] Part B: react-refactor
+[] Part B: react-refactor - 4 hours
      Refactor the event werkbook from Section 2 Part A into a multi-page react application in which a single exercie is displayed per each page.
      The application must be fully styled and responsive (using a combination of css-grid, css flexbox, and media queries .... NOT bootstrap)
   

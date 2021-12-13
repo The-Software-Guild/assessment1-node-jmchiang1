@@ -1,0 +1,9 @@
+.change {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 1rem;
+    width: fit-content;
+    height: fit-content;
+    justify-self: center;
+    margin: 5rem;
+}

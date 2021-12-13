@@ -1,0 +1,19 @@
+* {
+  background-color: lightblue;
+}
+
+.home-title {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10rem;
+}
+
+h1 {
+  transition: all 0.2s ease-in-out;
+}
+
+h1:hover {
+  transform: scale(1.1);
+}
